@@ -3,7 +3,7 @@
 Plugin Name: My First Plugin
 Description: A simple plugin to learn WordPress development.
 Version: 1.0
-Author: Your Name
+Author: Your Namey
 */
 function my_first_plugin_footer_message()
 {

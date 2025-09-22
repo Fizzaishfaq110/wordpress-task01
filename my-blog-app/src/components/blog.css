@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.container {
+  display: flex;
+  flex-direction: inherit;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.blog-container {
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 20px 50px #d9dbdf;
+  transition: all 0.3s ease;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 400px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0; /* rounded top corners */
+}
+
+.blog-title {
+  margin: 10px 0 5px 22px;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.blog-date {
+  text-align: justify;
+  padding: 0 22px 10px 22px;
+  font-size: 12px;
+  color: #c8c8c8;
+  line-height: 18px;
+}
+
+.blog-excerpt {
+  text-align: justify;
+  padding: 0 22px 13px 22px;
+  font-size: 12px;
+  color: #8a8a8a;
+  line-height: 18px;
+}
